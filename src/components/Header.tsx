@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
        <Navbar expand="lg" className="header-navbar">
-      <Container fluid className=' px-5'>
+      <Container fluid className=' px-3'>
         <Navbar.Brand href="#">WFC Health</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

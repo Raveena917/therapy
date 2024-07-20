@@ -7,7 +7,7 @@ function Landingpage() {
   return (
     <>
         <Container fluid className='main'>
-            <Row className='px-5 main-content'>
+            <Row className='px-3 main-content'>
                 <Col lg={5} className='d-flex justify-content-start'>
                 <h1>Best Physio Therapy Care In City</h1>
                 </Col>
@@ -22,11 +22,20 @@ function Landingpage() {
                         />
                         <Button className="px-4 py-2 main-search-button">Appointment</Button>
                     </Form>
-                        <IoStarSharp />
-                        <IoStarSharp />
-                        <IoStarSharp />
-                        <IoStarSharp />
-                        <IoStarSharp />
+                    <div className='main-star-icons'>
+                        <div >
+                        <IoStarSharp className='star-icon' /></div>
+                        <div >
+                        <IoStarSharp className='star-icon' /></div>
+                        <div >
+                        <IoStarSharp className='star-icon' /></div>
+                        <div >
+                        <IoStarSharp className='star-icon' /></div>
+                        <div >
+                        <IoStarSharp className='star-icon' /></div>
+                        <span>Trustpilot</span>
+                    </div>   
+                    <p>Excellent based on 456 reviews</p>
                 </Col>
             </Row>
             <Row className='px-2 py-5'>
