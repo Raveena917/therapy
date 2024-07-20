@@ -1,0 +1,22 @@
+
+// Physiotherapy Navbar
+ .header-navbar{
+    .navbar-brand{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .navbar-nav{
+        gap: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(21, 67, 108);
+        padding-block: 20px;
+    }
+    .header-button{
+        background:hsl(147.91deg 90.34% 40.59%);
+        border: none;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+ }
