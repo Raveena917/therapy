@@ -4,7 +4,7 @@ import { Container, Navbar, Nav, Form, Button } from 'react-bootstrap'
 import { Navigate } from 'react-router-dom';
 function Header() {
   const pageview=()=>{
-    Navigate("/specialist")
+    <Navigate to={"/specialist"}/>
 }
   return (
     <>

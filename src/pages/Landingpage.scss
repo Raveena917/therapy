@@ -8,9 +8,7 @@
     font-size: 60px;
     font-weight: 700;
   }
-  .main-content {
-   
-  }
+
   .main-search-bar {
     position: relative;
   }
@@ -58,14 +56,14 @@
     object-fit: cover;
   }
 }
-@media only screen and (max-width: 1003px) and (min-width:600px)  {
+@media only screen and (max-width: 1003px) and (min-width: 600px) {
   .main {
     padding-top: 50px;
     margin-bottom: 390px;
     height: 600px;
   }
 }
-@media only screen and (max-width: 600px) and (min-width:400px){
+@media only screen and (max-width: 600px) and (min-width: 400px) {
   .main {
     padding-top: 50px;
     margin-bottom: 470px;
@@ -85,7 +83,7 @@
     }
   }
 }
-@media only screen and (max-width: 400px) and (min-width:300px) {
+@media only screen and (max-width: 400px) and (min-width: 300px) {
   .main {
     padding-top: 50px;
     margin-bottom: 355px;
