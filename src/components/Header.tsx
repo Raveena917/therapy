@@ -1,7 +1,11 @@
 
 import './Header.scss'
 import { Container, Navbar, Nav, Form, Button } from 'react-bootstrap'
+import { Navigate } from 'react-router-dom';
 function Header() {
+  const pageview=()=>{
+    Navigate("/specialist")
+}
   return (
     <>
        <Navbar expand="lg" className="header-navbar">
@@ -20,7 +24,7 @@ function Header() {
             <Nav.Link href="#action4">Reviews</Nav.Link>
           </Nav>
           <Form className="">
-            <Button className='header-button py-2 px-4'>Get Started</Button>
+            <Button className='header-button py-2 px-4' onClick={()=>pageview()}>Get Started</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
