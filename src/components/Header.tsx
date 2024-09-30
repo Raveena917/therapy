@@ -1,11 +1,15 @@
 import React from 'react'
 import './Header.scss'
+import { Navigate } from 'react-router-dom';
 import { Container, Navbar, Nav, NavDropdown, Form, Button } from 'react-bootstrap'
 function Header() {
+  const pageview=()=>{
+    Navigate("/specialist")
+}
   return (
     <>
        <Navbar expand="lg" className="header-navbar">
-      <Container fluid className=' px-5'>
+      <Container fluid className=' px-3'>
         <Navbar.Brand href="#">WFC Health</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -20,7 +24,7 @@ function Header() {
             <Nav.Link href="#action4">Reviews</Nav.Link>
           </Nav>
           <Form className="">
-            <Button className='header-button py-2 px-4'>Get Started</Button>
+            <Button className='header-button py-2 px-4' onClick={()=>pageview()}>Get Started</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
