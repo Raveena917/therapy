@@ -1,6 +1,6 @@
-import React from 'react'
+
 import './Header.scss'
-import { Container, Navbar, Nav, NavDropdown, Form, Button } from 'react-bootstrap'
+import { Container, Navbar, Nav, Form, Button } from 'react-bootstrap'
 function Header() {
   return (
     <>

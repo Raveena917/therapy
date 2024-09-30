@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container, Row, Col, Button, Form, Image } from 'react-bootstrap'
 import './Landingpage.scss'
 import mainImage from '../assets/Shoulder-treatment-wall-frame-min.webp'
